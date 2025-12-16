@@ -218,9 +218,9 @@ export default function App() {
           {/* Education Block */}
           <div className="grid grid-cols-1 md:grid-cols-[1fr_200px] gap-4 pt-8 border-t border-devops-border border-dashed">
             <div>
-              <h3 className="text-xl font-bold text-devops-text">M.Sc. Computer Science</h3>
-              <div className="text-devops-muted text-sm mt-1">Technical University of Munich (TUM)</div>
-              <p className="text-sm text-devops-muted mt-2">Specialization in Distributed Systems & Cloud Computing</p>
+              <h3 className="text-xl font-bold text-devops-text">M.Sc. Electrical Engineering & Information Technology (Cloud & Automation)</h3>
+              <div className="text-devops-muted text-sm mt-1">Hochschule Darmstadt, Germany (Hda)</div>
+              <p className="text-sm text-devops-muted mt-2">Specialization in Industrial/Software Automation, Robotics & Cloud Computing</p>
             </div>
             <div className="text-right">
                <span className="inline-block px-3 py-1 bg-devops-card border border-devops-border rounded text-xs font-mono text-devops-muted">
@@ -237,24 +237,24 @@ export default function App() {
           {/* Direct Contact Info */}
           <div className="space-y-8">
             <p className="text-devops-text/80 leading-relaxed">
-              Currently open to discussing Senior DevOps roles in the DACH region. 
+              Currently open to discussing DevOps or Site Reliability Engineer or Platform Engineer roles in the Germany region. 
               I am particularly interested in positions focusing on Kubernetes autonomy and platform engineering.
             </p>
             
             <div className="space-y-4">
-              <a href="mailto:alex.weber.devops@example.com" className="flex items-center gap-4 text-devops-text hover:text-devops-accent transition-colors p-4 bg-devops-card border border-devops-border rounded">
+              <a href="mailto:kumar.charanporeddy@gmail.com" className="flex items-center gap-4 text-devops-text hover:text-devops-accent transition-colors p-4 bg-devops-card border border-devops-border rounded">
                 <Mail className="text-devops-accent" />
-                <span>alex.weber.devops@example.com</span>
+                <span>kumar.charanporeddy@gmail.com</span>
               </a>
               <div className="flex items-center gap-4 text-devops-text p-4 bg-devops-card border border-devops-border rounded opacity-70 cursor-not-allowed" title="Phone available upon request">
                 <Terminal className="text-devops-accent" />
                 <span>+49 151 1234 5678 (Request via email)</span>
               </div>
               <div className="flex gap-4 pt-4">
-                <a href="#" className="p-2 bg-devops-card border border-devops-border rounded text-devops-muted hover:text-white hover:border-devops-accent transition-all">
+                <a href="https://github.com/charankumar5" className="p-2 bg-devops-card border border-devops-border rounded text-devops-muted hover:text-white hover:border-devops-accent transition-all">
                   <Github size={20} />
                 </a>
-                <a href="#" className="p-2 bg-devops-card border border-devops-border rounded text-devops-muted hover:text-white hover:border-devops-accent transition-all">
+                <a href="https://www.linkedin.com/in/poreddy-charan/" className="p-2 bg-devops-card border border-devops-border rounded text-devops-muted hover:text-white hover:border-devops-accent transition-all">
                   <Linkedin size={20} />
                 </a>
               </div>
@@ -309,7 +309,7 @@ export default function App() {
       <footer className="border-t border-devops-border bg-devops-card py-12">
         <div className="max-w-7xl mx-auto px-6 md:px-12 flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="text-devops-muted text-sm">
-            &copy; {new Date().getFullYear()} Alex Weber. Built with React & Tailwind.
+            &copy; {new Date().getFullYear()} Charan Poreddy. Built with React & Tailwind.
           </div>
           <div className="text-xs text-devops-muted/60 max-w-sm text-center md:text-right">
             <p className="mb-1">GDPR Compliance Notice:</p>

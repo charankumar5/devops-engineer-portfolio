@@ -2,11 +2,11 @@ import { Project, Experience, SkillCategory, TimeSlot } from './types';
 import { Terminal, Shield, Cpu, Activity, Server, Code, Globe, Layers } from 'lucide-react';
 
 export const HERO_DATA = {
-  name: "Alex Weber", // Placeholder name
-  role: "Senior DevOps Engineer",
+  name: "Charan Kumar Reddy Poreddy", // Placeholder name
+  role: "Charan Poreddy { DevOps Engineer | Cloud Infrastructure Specialist }",
   tagline: "Architecting autonomous, resilient infrastructure.",
   subtext: "Specialized in GitOps, Kubernetes orchestration, and edge-computing reliability for enterprise ecosystems.",
-  location: "Berlin / Remote",
+  location: "Bremen / Remote",
   availability: "Available for projects"
 };
 
@@ -32,8 +32,8 @@ export const SKILLS_DATA: SkillCategory[] = [
 export const PROJECTS_DATA: Project[] = [
   {
     id: "p1",
-    title: "Edge-Device Deployment Streamlining",
-    role: "Lead DevOps Engineer",
+    title: "Streamlining Deployment of Robot Control Software Releases Using GitOps Workflow",
+    role: "DevOps Engineer",
     period: "06/2025 – 01/2026",
     description: "Designed a pull-based GitOps framework for autonomous robot control software.",
     stack: ["Python", "Docker", "Prometheus", "Grafana", "ELK"],
@@ -80,19 +80,27 @@ export const PROJECTS_DATA: Project[] = [
 export const EXPERIENCE_DATA: Experience[] = [
   {
     id: "e1",
-    company: "TechAutomate GmbH",
+    company: "Yardstick Robotics GmbH (RHEINMETALL AG)",
     role: "DevOps Engineer",
-    period: "2023 – Present",
-    location: "Munich, Germany",
-    description: "Leading the transition to cloud-native infrastructure. Managing Azure AKS clusters and CI/CD pipelines for 5 engineering teams."
+    period: "07/2024 – Present",
+    location: "Bremen, Germany",
+    description: "Leading the transition to cloud-native infrastructure. Managing Azure AKS clusters and CI/CD pipelines for 2 engineering teams."
   },
   {
     id: "e2",
-    company: "RoboSystems Inc.",
-    role: "Software Engineer (Werkstudent)",
-    period: "2021 – 2023",
-    location: "Berlin, Germany",
-    description: "Developed C++ drivers for sensor integration and maintained internal Docker registries for development environments."
+    company: "Livello GmbH",
+    role: "Junior DevOps Engineer (AWS)",
+    period: "09/2023 – 06/2024",
+    location: "Dusseldorf,, Germany",
+    description: "Led a migration of production edge environments from Docker Compose to Kubernetes(k3s), reducing smart-fridge operational failures."
+  },
+  {
+    id: "e3",
+    company: "HCL Technologies",
+    role: "System & Cloud Engineer",
+    period: "10/2019 – 08/2022",
+    location: "Bengaluru, India",
+    description: "Automated hybrid cloud server and infrastructure management across AWS, GCP, and on-prem environments,reducing manual operations by 30% and improving system reliability."
   }
 ];
 
